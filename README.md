@@ -23,6 +23,9 @@ Iremos trabalhar com o controle transacional usando os comandos COMMIT, ROLLBACK
 
 ##### Tabela  empregado
 
+![Screenshot from 2021-03-07 22-14-53](https://user-images.githubusercontent.com/70338213/110262517-babf8b00-7f92-11eb-869f-0094e60985b7.png)
+
+
 
 
 ##### PLSQL-1-Estruturas-Blocos-e-Variaveis
