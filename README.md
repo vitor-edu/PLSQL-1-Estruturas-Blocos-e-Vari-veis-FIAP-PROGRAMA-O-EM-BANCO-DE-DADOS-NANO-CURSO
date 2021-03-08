@@ -17,27 +17,12 @@ Este curso tem um conteúdo introdutório onde veremos estruturas básicas como:
 Iremos trabalhar com o controle transacional usando os comandos COMMIT, ROLLBACK e SAVEPOINT.  Em nossos exemplos, iremos usar duas tabelas  para teste e treinamento. As tabelas são empregado (com 3 colunas e uma chave primária), tabela DEPARTAMENTO (com 8 colunas, uma chave estrangeira e uma chave primaria).  
 
 ##### Tabela departamento
-'''
-CREATE TABLE departamento(
-  codigodept     NUMBER(2,0), 
-  nomedept       VARCHAR2(14),
-  localizadept   VARCHAR2(13),
-  CONSTRAINT pk_departamento PRIMARY KEY (codigodept)
-);
-'''
+
+![Screenshot from 2021-03-07 22-03-27](https://user-images.githubusercontent.com/70338213/110262298-09205a00-7f92-11eb-8278-565b03ee3af8.png)
+
+
 ##### Tabela  empregado
-'''
-CREATE TABLE empregado(
-  codempregado     NUMBER(4,0),
-  nomeempregado    VARCHAR2(10),
-  cargoempregado   VARCHAR2(9),
-  codgerente       NUMBER(4,0),
-  dcontratacao     DATE,
-  salario          NUMBER(7,2),
-  comissao         NUMBER(7,2),
-  codigodept       NUMBER(2,0),
-  CONSTRAINT pk_empregado PRIMARY KEY (codempregado),
-  CONSTRAINT fk_codigodept FOREIGN KEY(codigodept) REFERENCES departamento (codigodept)
-  ); 
-  '''   
+
+
+
 ##### PLSQL-1-Estruturas-Blocos-e-Variaveis
